@@ -15,7 +15,7 @@ export function load() {
 	i++;
 	y++;
 
-	console.log("A log printed " + i + " times " + Date.now());
+	console.log("A log printed " + i + " times and " + y + " global times " + Date.now());
 
 	fs.writeFileSync("/tmp/l.txt", y.toString());
 
