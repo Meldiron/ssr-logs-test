@@ -4,6 +4,6 @@ export function load() {
 	let x = process.env.OLD
 
 	return {
-		msg: "Env: " + x
+		msg: "Env2: " + x
 	};
 }
